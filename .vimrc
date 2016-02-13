@@ -18,8 +18,6 @@ set fencs=iso-2022-jp,enc-jp,cp932  "開くファイル
 " 現在のディレクトリのtagsを読み込む
 :set tags=tags
 
-
-
 "キーバインド
 "<C-j>でesc
 noremap <C-j> <esc>

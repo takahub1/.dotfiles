@@ -13,19 +13,18 @@ set fencs=iso-2022-jp,enc-jp,cp932  "開くファイル
 "自動的に開いたファイルへ移動
 :set autochdir
 "ctags
-" :set tags=/home/thinkpot/c/soft/tags
 " :set tags=/home/thinkpot/c/vim_stm32f4/f4_test/main/tags,/home/thinkpot/c/vim_stm32f4/f4_test/tags
 " 現在のディレクトリのtagsを読み込む
 :set tags=tags
 
 "キーバインド
 "<C-j>でesc
-noremap <C-j> <esc>
-noremap! <C-j> <esc>
+" noremap <C-j> <esc>
+" noremap! <C-j> <esc>
 
 "検索結果のハイライトと取り消し
 set hlsearch
-nnoremap <C-j><C-j> :nohlsearch<CR> 
+nnoremap <C-[><C-[> :nohlsearch<CR> 
 
 " <Space>i でコードをインデント整形
 noremap <Space>i gg=<S-g><C-o><C-o>zz

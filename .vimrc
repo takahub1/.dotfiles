@@ -48,8 +48,8 @@ nnoremap g# g#zz
 nnoremap <C-h> <C-w><C-]>
 
 "comment out
-nmap <C-K> <Plug>(caw:i:toggle)
-vmap <C-K> <Plug>(caw:i:toggle)
+nmap <C-K> <Plug>(caw:hatpos:toggle)
+vmap <C-K> <Plug>(caw:hatpos:toggle)
 
 "** 表示設定 **
 syntax on                           "ハイライト表示

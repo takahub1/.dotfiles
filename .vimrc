@@ -19,12 +19,12 @@ set fencs=iso-2022-jp,enc-jp,cp932  "開くファイル
 
 "キーバインド
 "<C-j>でesc
-" noremap <C-j> <esc>
-" noremap! <C-j> <esc>
+noremap <C-j> <esc>
+noremap! <C-j> <esc>
 
 "検索結果のハイライトと取り消し
 set hlsearch
-nnoremap <C-[><C-[> :nohlsearch<CR> 
+nnoremap <C-j><C-j> :nohlsearch<CR> 
 
 " <Space>i でコードをインデント整形
 noremap <Space>i gg=<S-g><C-o><C-o>zz

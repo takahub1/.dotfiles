@@ -47,6 +47,9 @@ nnoremap g# g#zz
 "画面を分割してのタグジャンプ
 nnoremap <C-h> <C-w><C-]>
 
+"レジスタ0の内容をペースト
+noremap PP "0p
+
 "comment out
 nmap <C-K> <Plug>(caw:hatpos:toggle)
 vmap <C-K> <Plug>(caw:hatpos:toggle)

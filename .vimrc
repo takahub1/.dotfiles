@@ -13,7 +13,6 @@ set fencs=iso-2022-jp,enc-jp,cp932  "開くファイル
 "自動的に開いたファイルへ移動
 :set autochdir
 "ctags
-" :set tags=/home/thinkpot/c/vim_stm32f4/f4_test/main/tags,/home/thinkpot/c/vim_stm32f4/f4_test/tags
 " 現在のディレクトリのtagsを読み込む
 :set tags=tags
 
@@ -60,7 +59,7 @@ set title                           "タイトル
 set number                          "行番号
  
 set t_Co=256
-colorscheme molokai
+"colorscheme molokai
 let g:molokai_original=1
 set background=dark
  
